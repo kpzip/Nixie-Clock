@@ -38,3 +38,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# kicad history
+.history/
+.history_old/
+.history_trim/
+
+outputs/
