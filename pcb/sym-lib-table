@@ -5,4 +5,5 @@
 	(lib (name "NixiesMisc") (type "KiCad") (uri "${KIPRJMOD}/NixiesMisc.kicad_sym") (options "") (descr ""))
 	(lib (name "STS4X") (type "KiCad") (uri "${KIPRJMOD}/STS4X.kicad_sym") (options "") (descr ""))
 	(lib (name "DA2032-AL") (type "KiCad") (uri "${KIPRJMOD}/DA2032-AL.kicad_sym") (options "") (descr ""))
+	(lib (name "RSK-2405SRUW_H3") (type "KiCad") (uri "${KIPRJMOD}/RSK-2405SRUW_H3.kicad_sym") (options "") (descr ""))
 )

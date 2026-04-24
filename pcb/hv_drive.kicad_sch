@@ -2718,6 +2718,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RSK-2405SRUW_H3:RSK-2405SRUW_H3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at -7.366 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RSK-2405SRUW_H3"
+				(at -7.366 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RSK-2405SRUW_H3:CONV_RSK-2405SRUW_H3"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "0/2023"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Recom Power"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "RS3K-2405SZ/H3"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.6mm"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RSK-2405SRUW_H3_0_0"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RSK-2405SRUW_H3_1_0"
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RSK-2405SRUW_H3_1_1"
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Reference_Voltage:TL431DBZ"
 			(pin_numbers
 				(hide yes)
@@ -4361,6 +4645,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4777,6 +5200,16 @@
 		)
 		(uuid "1851feba-e6cd-467d-82e4-f534f27a5564")
 	)
+	(text "180V"
+		(exclude_from_sim no)
+		(at 302.768 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33b8c5df-ccb0-4e03-a619-ecb9dd9c91ea")
+	)
 	(junction
 		(at 294.64 104.14)
 		(diameter 0)
@@ -4784,10 +5217,22 @@
 		(uuid "0c97bf1d-c49a-46fe-b2d9-5407d0de5bea")
 	)
 	(junction
+		(at 247.65 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d23a510-9f64-4cf4-bb63-f216671fe873")
+	)
+	(junction
 		(at 224.79 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2fd20d-f5dc-43b0-96a8-57a49bdd9e88")
+	)
+	(junction
+		(at 210.82 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ffeb89a-0f89-46d5-89ce-ef39bd5159f7")
 	)
 	(junction
 		(at 309.88 93.98)
@@ -4830,6 +5275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354db32c-5e39-4d93-830e-41cdb7da8979")
+	)
+	(junction
+		(at 247.65 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3c0ac4-ef69-4619-9da8-73a0b81add5c")
 	)
 	(junction
 		(at 156.21 41.91)
@@ -5061,6 +5512,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 38.1) (xy 252.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06459a4e-974b-44d0-97c7-9eb12f44a620")
+	)
+	(wire
+		(pts
 			(xy 191.77 109.22) (xy 186.69 109.22)
 		)
 		(stroke
@@ -5088,6 +5549,16 @@
 			(type default)
 		)
 		(uuid "080e593a-81f3-4af7-9296-69a0f219d94a")
+	)
+	(wire
+		(pts
+			(xy 238.76 52.07) (xy 242.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0910d003-082a-4a36-b329-dcc5dc250e45")
 	)
 	(wire
 		(pts
@@ -5201,6 +5672,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 41.91) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2966361e-7429-447f-a3ee-5a67084d2057")
+	)
+	(wire
+		(pts
 			(xy 309.88 104.14) (xy 335.28 104.14)
 		)
 		(stroke
@@ -5291,6 +5772,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 54.61) (xy 247.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aff7e96-0e64-4f78-80f4-35c9cf0a5b59")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 252.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dec465e-2faa-4058-a7cd-8e33881fb5d7")
+	)
+	(wire
+		(pts
 			(xy 237.49 106.68) (xy 237.49 109.22)
 		)
 		(stroke
@@ -5321,6 +5822,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 41.91) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d0d355-a5da-419c-82a3-11e916e2cdd4")
+	)
+	(wire
+		(pts
 			(xy 237.49 86.36) (xy 241.3 86.36)
 		)
 		(stroke
@@ -5338,6 +5849,16 @@
 			(type default)
 		)
 		(uuid "48e7e299-a105-4f79-8f88-15d72d8d24e3")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 247.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a83bcf3-d41e-44ed-bc2c-db2d476cb968")
 	)
 	(wire
 		(pts
@@ -5401,6 +5922,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 41.91) (xy 252.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5421f2d9-5499-420f-811e-78f786c05b70")
+	)
+	(wire
+		(pts
 			(xy 237.49 109.22) (xy 241.3 109.22)
 		)
 		(stroke
@@ -5461,6 +5992,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 54.61) (xy 252.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cef1360-78e2-480b-b430-fc194747a787")
+	)
+	(wire
+		(pts
 			(xy 88.9 120.65) (xy 88.9 123.19)
 		)
 		(stroke
@@ -5468,6 +6009,16 @@
 			(type default)
 		)
 		(uuid "5ecde81f-a3d6-4fcb-9507-3711737783f0")
+	)
+	(wire
+		(pts
+			(xy 210.82 52.07) (xy 210.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6d61b5-9fee-46e1-b5b1-ccd5dd3b2d23")
 	)
 	(wire
 		(pts
@@ -5781,6 +6332,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 33.02) (xy 210.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da628e4-851b-4047-999b-f19cfe12d12d")
+	)
+	(wire
+		(pts
 			(xy 224.79 96.52) (xy 224.79 93.98)
 		)
 		(stroke
@@ -5808,6 +6369,16 @@
 			(type default)
 		)
 		(uuid "969a3fa4-4620-480d-b8c6-03425825eb02")
+	)
+	(wire
+		(pts
+			(xy 242.57 52.07) (xy 242.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e00043-b12b-4c4a-b9bf-4024ee7de471")
 	)
 	(wire
 		(pts
@@ -6021,6 +6592,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 44.45) (xy 210.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc333dd-edf5-406f-bb0a-aac18c530f5e")
+	)
+	(wire
+		(pts
 			(xy 88.9 110.49) (xy 144.78 110.49)
 		)
 		(stroke
@@ -6101,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 48.26) (xy 210.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1ec4fb-b9d8-478c-a8da-f40a41a8d5ed")
+	)
+	(wire
+		(pts
 			(xy 237.49 91.44) (xy 241.3 91.44)
 		)
 		(stroke
@@ -6171,6 +6762,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 52.07) (xy 210.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb698cf8-7600-43ac-88c2-4e057c59ef01")
+	)
+	(wire
+		(pts
 			(xy 322.58 113.03) (xy 322.58 124.46)
 		)
 		(stroke
@@ -6238,6 +6839,16 @@
 			(type default)
 		)
 		(uuid "d50200e6-4bb9-4c43-93c8-a4ec2916ae44")
+	)
+	(wire
+		(pts
+			(xy 210.82 48.26) (xy 210.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d317fe-8586-4b1e-b855-6d3ee0685a34")
 	)
 	(wire
 		(pts
@@ -6391,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 44.45) (xy 242.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e63b68-04eb-4858-9a98-63e62cd17143")
+	)
+	(wire
+		(pts
 			(xy 254 165.1) (xy 254 168.91)
 		)
 		(stroke
@@ -6408,6 +7029,16 @@
 			(type default)
 		)
 		(uuid "e6886df4-8c3a-446b-bc01-9e2c91b24475")
+	)
+	(wire
+		(pts
+			(xy 242.57 44.45) (xy 242.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7640d2a-c2d4-43ec-b812-fb73b2660cfb")
 	)
 	(wire
 		(pts
@@ -7048,6 +7679,121 @@
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12535eb9-06ce-444c-9b07-c3bcdef0206d")
+		(property "Reference" "C30"
+			(at 251.46 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μF"
+			(at 251.46 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 248.6152 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "1276-1181-1-ND"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2baa75f-aa83-4686-9467-dc245f98ed8e")
+		)
+		(pin "2"
+			(uuid "eb04c2f1-b108-42b6-af16-f10f3020bbba")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8566,6 +9312,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 210.82 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fec4f87-4294-441a-ba50-5ecec513a0af")
+		(property "Reference" "#PWR035"
+			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 210.82 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2442dad-2958-425f-8162-695958068817")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5817")
 		(at 195.58 120.65 180)
 		(unit 1)
@@ -9570,6 +10394,162 @@
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 252.73 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78408944-0ce5-466c-a2c6-9df217d7e516")
+		(property "Reference" "#PWR067"
+			(at 252.73 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NGND"
+			(at 252.73 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1068e00-5192-4673-9f91-6ae1fc27c41a")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cbef28f-0eac-4806-994f-169c3e02166e")
+		(property "Reference" "#PWR066"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba4b179a-552c-44ba-9d23-98e771db0157")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -12265,6 +13245,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 252.73 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc0c9b28-2852-4ba3-8fff-01af84d8eb24")
+		(property "Reference" "#PWR068"
+			(at 252.73 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V ISO"
+			(at 252.73 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f42395f-67e4-4b1b-9d67-d12eff1df691")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:PC817")
 		(at 267.97 151.13 0)
 		(mirror y)
@@ -12780,6 +13838,162 @@
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSK-2405SRUW_H3:RSK-2405SRUW_H3")
+		(at 228.6 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb373f73-b5ab-4a73-b305-e394ed641c76")
+		(property "Reference" "PS1"
+			(at 228.6 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSK-2405SRUW_H3"
+			(at 228.6 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSK-2405SRUW_H3:CONV_RSK-2405SRUW_H3"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "0/2023"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Recom Power"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "RS3K-2405SZ/H3"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.6mm"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e32a6415-aa96-4aa3-baba-e98da5a1006c")
+		)
+		(pin "3"
+			(uuid "9d3c98ce-fb20-44e1-bf2b-c7d220ed55be")
+		)
+		(pin "6"
+			(uuid "eeffc39c-ab85-4f85-ba04-74fa5888372f")
+		)
+		(pin "1"
+			(uuid "aab89350-3dc2-46a2-a438-e1840267168d")
+		)
+		(pin "8"
+			(uuid "fd9def24-0c8e-470f-b565-67db7d02697a")
+		)
+		(pin "5"
+			(uuid "41d760f1-3383-47ee-86fb-2810477d69d2")
+		)
+		(pin "7"
+			(uuid "2f174bce-ce36-44e6-9407-0cf0482f8b2a")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/c9568c25-b91e-4e2a-8855-139c3327d912"
+					(reference "PS1")
 					(unit 1)
 				)
 			)

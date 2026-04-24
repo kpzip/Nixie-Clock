@@ -263,7 +263,8 @@
       "NixiesMisc",
       "NixiesUS",
       "STS4X",
-      "DA2032-AL"
+      "DA2032-AL",
+      "RSK-2405SRUW_H3"
     ]
   },
   "meta": {
@@ -517,7 +518,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "R21-31,#PWR48-62,Q4-13,N1,U10",
+    "used_designators": "C30,#PWR35,#PWR66-70,PS1",
     "variants": []
   },
   "sheets": [
