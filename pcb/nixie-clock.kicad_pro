@@ -518,7 +518,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "C30,#PWR35,#PWR66-70,PS1",
+    "used_designators": "NE1-2,R21-102,U10-27,Q4-77,N1-6,#PWR48-51,#PWR53-65,#PWR69-188,C31",
     "variants": []
   },
   "sheets": [
@@ -528,11 +528,39 @@
     ],
     [
       "c9568c25-b91e-4e2a-8855-139c3327d912",
-      "HV & Drivers"
+      "Power"
     ],
     [
-      "2ed4d21e-38a1-4a2e-94f0-83f31824f983",
-      "Tubes"
+      "2ff1bcc1-1c83-4340-a200-53c7b921de3e",
+      "Colons"
+    ],
+    [
+      "154c08fc-076c-478f-a964-6cfa88332eff",
+      "Digit Tube & Driver 1"
+    ],
+    [
+      "f9eab838-5191-45a6-a32c-04930a40fc48",
+      "Digit Tube & Driver 2"
+    ],
+    [
+      "7739d1fe-93d5-49e8-9895-dc6fc010465b",
+      "Digit Tube & Driver 3"
+    ],
+    [
+      "85d16852-c154-4e73-b366-cc48d362914b",
+      "Digit Tube & Driver 4"
+    ],
+    [
+      "28c51b48-c0e2-49c1-80bf-291ea4040226",
+      "Digit Tube & Driver 5"
+    ],
+    [
+      "70770765-7997-4f7d-81c0-ea8f4885ecbc",
+      "Digit Tube & Driver 6"
+    ],
+    [
+      "404f1999-5171-4dfc-91f2-f75b17a61f1e",
+      "Tube Shift Registers"
     ]
   ],
   "text_variables": {},

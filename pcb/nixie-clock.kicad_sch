@@ -10351,6 +10351,92 @@
 		)
 	)
 	(sheet
+		(at 335.28 111.76)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "404f1999-5171-4dfc-91f2-f75b17a61f1e")
+		(property "Sheetname" "Tube Shift Registers"
+			(at 335.28 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shift_registers.kicad_sch"
+			(at 335.28 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCLK" input
+			(at 335.28 115.57 180)
+			(uuid "ec8438d9-d74a-43fd-ba22-f11805c1f4c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RCLK" input
+			(at 335.28 118.11 180)
+			(uuid "8f559f45-ae97-4f7e-b89a-97c06fbb69a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDATA" input
+			(at 335.28 120.65 180)
+			(uuid "df3d5a01-93da-4708-8688-c2dc93f78b7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OE}" input
+			(at 335.28 123.19 180)
+			(uuid "c8ea4c62-6b36-491e-910a-aa5098b4beb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 289.56 158.75)
 		(size 33.02 20.32)
 		(exclude_from_sim no)
@@ -10366,7 +10452,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "c9568c25-b91e-4e2a-8855-139c3327d912")
-		(property "Sheetname" "HV & Drivers"
+		(property "Sheetname" "Power"
 			(at 289.56 158.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
