@@ -7680,6 +7680,17 @@
 				)
 			)
 		)
+		(property "Vendor" "Digi-Key"
+			(at 168.91 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4dbe1117-721f-48a5-a4c5-6c2ddddcac92")
 		)
@@ -8393,7 +8404,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Reset"
 			(at 251.46 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10436,6 +10447,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
 			(at 217.17 175.26 0)
 			(hide yes)
 			(show_name no)

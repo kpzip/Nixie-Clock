@@ -262,7 +262,8 @@
       "Nixies",
       "NixiesMisc",
       "NixiesUS",
-      "STS4X"
+      "STS4X",
+      "DA2032-AL"
     ]
   },
   "meta": {
@@ -424,6 +425,48 @@
           "label": "Sim.Type",
           "name": "Sim.Type",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -474,7 +517,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "SW1,R1,C1-3,C5,C14-16,T1,BT1,#PWR13-30,U2-5,N1",
+    "used_designators": "#PWR31-47,R2-20,D1-5,C17-29,Q1-3,U5-10",
     "variants": []
   },
   "sheets": [
