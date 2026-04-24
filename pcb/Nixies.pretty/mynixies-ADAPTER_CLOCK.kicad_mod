@@ -1,0 +1,147 @@
+(footprint "mynixies-ADAPTER_CLOCK"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1a712595-c04b-4e40-a630-e3d321076b03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "315913cf-3f6c-4e00-8d23-074b653c351b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5af157b8-4241-4ec4-a139-9145a75e4389")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae61524c-f1f7-4014-8c9c-2819a60dbe19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "P$1" thru_hole circle
+		(at 0 -13.49756)
+		(size 5.29844 5.29844)
+		(drill 2.99974)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc2ad93c-9a1c-45a0-9607-2d0aeefc051d")
+	)
+	(pad "P$2" thru_hole circle
+		(at -11.68908 6.74878)
+		(size 5.29844 5.29844)
+		(drill 2.99974)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b84e147-28a1-4d61-928a-7a8f2c4d42ce")
+	)
+	(pad "P$3" thru_hole circle
+		(at 11.68908 6.74878)
+		(size 5.29844 5.29844)
+		(drill 2.99974)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "518a9ed8-3f92-4b73-b17b-0051ce536c1a")
+	)
+	(pad "P$4" smd circle
+		(at 12.83716 -4.17068)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da39c08a-390a-45cf-9992-36b30e9329d5")
+	)
+	(pad "P$5" smd circle
+		(at 10.03046 -9.03224)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c2ef554-7336-4f78-85bb-f02d1a862db7")
+	)
+	(pad "P$6" smd circle
+		(at 5.48894 -12.3317)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c73fe7ab-ef33-4c7e-ab40-1a73079f927d")
+	)
+	(pad "P$7" smd circle
+		(at -5.48894 -12.3317)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8d83af1-0e7f-42a7-9133-d453a28b6192")
+	)
+	(pad "P$8" smd circle
+		(at -10.03046 -9.03224)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a639f6b6-437a-48dd-bbb4-40ce11786500")
+	)
+	(pad "P$9" smd circle
+		(at -12.83716 -4.17068)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5dc3d6d1-4a62-4d55-aeee-3398b3db067e")
+	)
+	(pad "P$10" smd circle
+		(at -13.4239 1.4097)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4b5cf83d-85d2-413f-96a4-19e7d4b70ea3")
+	)
+	(pad "P$11" smd circle
+		(at -7.93496 10.91946)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7dfbd30-9270-410e-b6a0-64284bb46cea")
+	)
+	(pad "P$12" smd circle
+		(at -2.8067 13.20292)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "daa7f023-9fa1-43b4-95a7-6636e2c7a108")
+	)
+	(pad "P$13" smd circle
+		(at 2.8067 13.20292)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "869bea1e-80a2-4d9f-9491-e5378a89a837")
+	)
+	(pad "P$14" smd circle
+		(at 7.93496 10.91946)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e01b7119-3e05-4d0f-a41c-c345500b6de3")
+	)
+	(pad "P$15" smd circle
+		(at 13.4239 1.4097)
+		(size 1.8288 1.8288)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0778d561-9626-4539-8ba0-a87d3bf9ad02")
+	)
+	(embedded_fonts no)
+)

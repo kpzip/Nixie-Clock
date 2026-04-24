@@ -1,0 +1,131 @@
+(footprint "nixiemisc-LED_SQUARE_3MM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED")
+	(tags "LED")
+	(property "Reference" ">NAME"
+		(at 5.08 -1.016 0)
+		(layer "F.SilkS")
+		(uuid "75594e94-e6cf-4257-8618-b3eb3bf920ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 5.715 1.016 0)
+		(layer "F.SilkS")
+		(uuid "4e1f49eb-2cf7-4e5a-abdb-a0c1df581180")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9320e389-0739-4bac-9ff6-85c468814f1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a31154-131a-4782-8e1e-540df6e872ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.58826 -1.7272)
+		(end -1.8542 -1.7272)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d50ae1-4102-4d16-a1bd-76ceebb800f7")
+	)
+	(fp_line
+		(start -2.2352 -1.3208)
+		(end -2.2352 -2.1082)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27d004c8-282d-41e2-b25a-0a60deee01bc")
+	)
+	(fp_line
+		(start -1.4986 -1.4986)
+		(end 1.4986 -1.4986)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a335609-bbea-4ea2-9fea-930dd2e3e2c3")
+	)
+	(fp_line
+		(start -1.4986 1.4986)
+		(end -1.4986 -1.4986)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0508ff48-f015-435a-bf84-e64a09a6e373")
+	)
+	(fp_line
+		(start 1.4986 -1.4986)
+		(end 1.4986 1.4986)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "088f7697-f383-4a34-ba22-60aa85f97190")
+	)
+	(fp_line
+		(start 1.4986 1.4986)
+		(end -1.4986 1.4986)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d30e5808-aecf-4b1e-ac20-a7c70a7ccbf5")
+	)
+	(pad "A" thru_hole circle
+		(at -1.27 0)
+		(size 1.6764 1.6764)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da77cc8b-5e6c-4e37-ad1b-6d8ff15c8d8c")
+	)
+	(pad "K" thru_hole circle
+		(at 1.27 0)
+		(size 1.6764 1.6764)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7d7c32f-0a4a-4ad3-a51b-9164bc757bc1")
+	)
+	(embedded_fonts no)
+)

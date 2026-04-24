@@ -1,0 +1,102 @@
+(footprint "nixiemisc-KEYSTONE1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4f9d56fd-856f-4332-aef7-7d65d7050885")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2309066e-e003-4a4c-a758-b71d29ac6a1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5beaf9e7-b462-4890-bad1-d17e9647f8e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cde68afc-f0c9-470e-8a1d-8f1a0db7f964")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.9624 -8.1534)
+		(end -3.9624 4.2164)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "19b3f49e-a098-46c9-b2dc-1ef59db5f5c2")
+	)
+	(fp_line
+		(start -3.9624 4.2164)
+		(end 3.9624 4.2164)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fc428612-5e4c-41a0-8180-d5abed8f9f76")
+	)
+	(fp_line
+		(start 3.9624 -8.1534)
+		(end -3.9624 -8.1534)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a66c7ecf-ef87-40e0-93c4-52fe06023b3c")
+	)
+	(fp_line
+		(start 3.9624 4.2164)
+		(end 3.9624 -8.1534)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5935875e-28b8-41a7-a871-1c103c2960a6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.8288)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f2f5b2b4-4dfe-43d2-b721-b636a7dd6697")
+	)
+	(embedded_fonts no)
+)
