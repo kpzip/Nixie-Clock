@@ -517,7 +517,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "#PWR31-47,R2-20,D1-5,C17-29,Q1-3,U5-10",
+    "used_designators": "R21-31,#PWR48-62,Q4-13,N1,U10",
     "variants": []
   },
   "sheets": [
@@ -528,6 +528,10 @@
     [
       "c9568c25-b91e-4e2a-8855-139c3327d912",
       "HV & Drivers"
+    ],
+    [
+      "2ed4d21e-38a1-4a2e-94f0-83f31824f983",
+      "Tubes"
     ]
   ],
   "text_variables": {},
