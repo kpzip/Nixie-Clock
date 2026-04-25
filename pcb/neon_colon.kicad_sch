@@ -2558,7 +2558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lamp_Neon"
+		(property "Value" "NE-2"
 			(at 191.77 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lamp_Neon"
+		(property "Value" "NE-2"
 			(at 223.52 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
