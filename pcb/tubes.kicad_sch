@@ -2533,12 +2533,6 @@
 		(color 0 0 0 0)
 		(uuid "ed6b9a76-0618-4104-9d92-0849b106a132")
 	)
-	(junction
-		(at 88.9 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f935b357-f4d5-4f93-8940-408f5b6e1776")
-	)
 	(no_connect
 		(at 101.6 152.4)
 		(uuid "25a3871a-0ade-4df4-ab8a-8cf789912e74")
@@ -2715,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 106.68) (xy 88.9 109.22)
+			(xy 88.9 104.14) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3135,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2af109-c8e2-4904-b864-6becd5c01535")
-	)
-	(wire
-		(pts
 			(xy 293.37 92.71) (xy 293.37 96.52)
 		)
 		(stroke
@@ -3515,16 +3499,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 121.92) (xy 73.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7722497-270d-4404-b895-fb54f4849a5e")
-	)
-	(wire
-		(pts
 			(xy 185.42 62.23) (xy 317.5 62.23)
 		)
 		(stroke
@@ -3665,16 +3639,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 88.9 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21a0121-f75f-4628-9eb7-0267c3337bd4")
-	)
-	(wire
-		(pts
 			(xy 142.24 92.71) (xy 142.24 96.52)
 		)
 		(stroke
@@ -3754,6 +3718,17 @@
 			(justify right)
 		)
 		(uuid "2ac1b11b-0217-4a66-8cb1-4a5fa7f7bd51")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 73.66 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d883c39-39e7-4264-8f80-6ed356a048e1")
 	)
 	(hierarchical_label "LHDP"
 		(shape input)

@@ -518,7 +518,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1-3,D6,C33-37,R4-5,R103-111,J2-3,#PWR190-209,U28-30",
     "variants": []
   },
   "sheets": [
@@ -561,6 +561,10 @@
     [
       "404f1999-5171-4dfc-91f2-f75b17a61f1e",
       "Tube Shift Registers"
+    ],
+    [
+      "f8d3b7da-a2a9-47f4-8e07-f9acd571f3e8",
+      "Radio"
     ]
   ],
   "text_variables": {},
