@@ -684,6 +684,36 @@
           "label": "Package",
           "name": "Package",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -734,7 +764,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "J4-5,C9,C38-43,#PWR210-215",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

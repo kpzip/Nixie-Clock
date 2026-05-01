@@ -7888,7 +7888,7 @@
 		)
 		(uuid "9f4a3a6c-29bf-4eaa-8596-ab088094285d")
 	)
-	(label "~{INT}"
+	(label "~{RTC_INT}"
 		(at 186.69 179.07 180)
 		(effects
 			(font
@@ -8048,7 +8048,7 @@
 		)
 		(uuid "eb33ae7e-88ad-48d4-a7aa-d375d061595c")
 	)
-	(label "~{INT}"
+	(label "~{RTC_INT}"
 		(at 316.23 95.25 0)
 		(effects
 			(font
@@ -17336,6 +17336,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{RADIO_RST}" input
+			(at 321.31 194.31 0)
+			(uuid "cc992647-a3d1-4d4a-940a-f2a6b6605ca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
