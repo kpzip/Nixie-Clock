@@ -2640,7 +2640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "220kΩ"
 			(at 222.25 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "220kΩ"
 			(at 190.5 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
