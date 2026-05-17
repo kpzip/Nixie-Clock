@@ -6420,34 +6420,34 @@
 			)
 		)
 		(pin "5"
-			(uuid "231e6c51-68d3-413d-8bb2-a48ac72fa6a7")
+			(uuid "231e6c51-68d3-413d-8bb2-a48ac72fa6a8")
 		)
 		(pin "4"
-			(uuid "5c562c47-b227-4513-9633-173c084f9457")
+			(uuid "5c562c47-b227-4513-9633-173c084f9458")
 		)
 		(pin "2"
-			(uuid "0bc8867d-7982-4c39-baa8-8eadddefb255")
+			(uuid "0bc8867d-7982-4c39-baa8-8eadddefb256")
 		)
 		(pin "3"
-			(uuid "1cf519b1-d1e5-4168-9d97-7b7c961dd4c9")
+			(uuid "1cf519b1-d1e5-4168-9d97-7b7c961dd4ca")
 		)
 		(pin "7"
-			(uuid "09323d05-08e1-450b-afa7-c7cd039dd0d4")
+			(uuid "09323d05-08e1-450b-afa7-c7cd039dd0d5")
 		)
 		(pin "9"
-			(uuid "a46b2e1d-fd69-47bf-9cab-d0e16ea61d26")
+			(uuid "a46b2e1d-fd69-47bf-9cab-d0e16ea61d27")
 		)
 		(pin "10"
-			(uuid "27ab23d2-e929-4663-884c-2ae0d06de12f")
+			(uuid "27ab23d2-e929-4663-884c-2ae0d06de130")
 		)
 		(pin "1"
-			(uuid "3fc1e3fa-fdf0-4316-952f-45fbef8aed15")
+			(uuid "3fc1e3fa-fdf0-4316-952f-45fbef8aed16")
 		)
 		(pin "6"
-			(uuid "6b11693e-08bf-4cf7-b100-47bc92ffc3e4")
+			(uuid "6b11693e-08bf-4cf7-b100-47bc92ffc3e5")
 		)
 		(pin "8"
-			(uuid "2c7759ee-66b5-49a5-81e0-8f9ebe3c793f")
+			(uuid "2c7759ee-66b5-49a5-81e0-8f9ebe3c7940")
 		)
 		(instances
 			(project "nixie-clock"
@@ -7302,7 +7302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal"
 			(at 345.44 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8013,7 +8013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical"
 			(at 182.88 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8331,7 +8331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8674,34 +8674,34 @@
 			)
 		)
 		(pin "5"
-			(uuid "231e6c51-68d3-413d-8bb2-a48ac72fa6a7")
+			(uuid "231e6c51-68d3-413d-8bb2-a48ac72fa6a9")
 		)
 		(pin "4"
-			(uuid "5c562c47-b227-4513-9633-173c084f9457")
+			(uuid "5c562c47-b227-4513-9633-173c084f9459")
 		)
 		(pin "2"
-			(uuid "0bc8867d-7982-4c39-baa8-8eadddefb255")
+			(uuid "0bc8867d-7982-4c39-baa8-8eadddefb257")
 		)
 		(pin "3"
-			(uuid "1cf519b1-d1e5-4168-9d97-7b7c961dd4c9")
+			(uuid "1cf519b1-d1e5-4168-9d97-7b7c961dd4cb")
 		)
 		(pin "7"
-			(uuid "09323d05-08e1-450b-afa7-c7cd039dd0d4")
+			(uuid "09323d05-08e1-450b-afa7-c7cd039dd0d6")
 		)
 		(pin "9"
-			(uuid "a46b2e1d-fd69-47bf-9cab-d0e16ea61d26")
+			(uuid "a46b2e1d-fd69-47bf-9cab-d0e16ea61d28")
 		)
 		(pin "10"
-			(uuid "27ab23d2-e929-4663-884c-2ae0d06de12f")
+			(uuid "27ab23d2-e929-4663-884c-2ae0d06de131")
 		)
 		(pin "1"
-			(uuid "3fc1e3fa-fdf0-4316-952f-45fbef8aed15")
+			(uuid "3fc1e3fa-fdf0-4316-952f-45fbef8aed17")
 		)
 		(pin "6"
-			(uuid "6b11693e-08bf-4cf7-b100-47bc92ffc3e4")
+			(uuid "6b11693e-08bf-4cf7-b100-47bc92ffc3e6")
 		)
 		(pin "8"
-			(uuid "2c7759ee-66b5-49a5-81e0-8f9ebe3c793f")
+			(uuid "2c7759ee-66b5-49a5-81e0-8f9ebe3c7941")
 		)
 		(instances
 			(project "nixie-clock"
@@ -9206,7 +9206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical"
 			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)

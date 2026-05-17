@@ -8159,6 +8159,17 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "AMC0311S "
+			(at 246.38 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "40b3c251-61a5-46a6-b142-7082e5ee34a1")
 		)
