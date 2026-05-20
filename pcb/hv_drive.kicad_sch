@@ -5881,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5903,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6074,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 252.73 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6096,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1181-1-ND"
+		(property "Vendor Part Number" ""
 			(at 252.73 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +6474,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6496,7 +6496,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6665,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +6687,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6780,7 +6780,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 222.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6802,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 222.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6917,7 +6917,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7088,7 +7088,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 275.59 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -7110,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 275.59 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -7436,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 74.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 74.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 195.58 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7650,7 +7650,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 195.58 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7931,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 205.74 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 205.74 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8045,7 +8045,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8067,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 246.38 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -8270,7 +8270,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8292,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8384,7 +8384,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 283.21 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8406,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 283.21 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 193.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 193.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8748,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 275.59 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 275.59 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8942,7 +8942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 229.87 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8964,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 229.87 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9213,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9235,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9483,7 +9483,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 308.61 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9505,7 +9505,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 308.61 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9598,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9620,7 +9620,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1181-1-ND"
+		(property "Vendor Part Number" ""
 			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9712,7 +9712,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 74.93 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9734,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 74.93 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9906,7 +9906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 241.3 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9928,7 +9928,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 241.3 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10098,7 +10098,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 205.74 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 205.74 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +10291,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10484,7 +10484,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 251.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10506,7 +10506,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 251.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10676,7 +10676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 295.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 295.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10910,7 +10910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10932,7 +10932,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11103,7 +11103,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11125,7 +11125,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11217,7 +11217,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+		(property "Manufacturer Part Number" ""
 			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11239,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+		(property "Vendor Part Number" ""
 			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11332,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+		(property "Manufacturer Part Number" ""
 			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11354,7 +11354,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1276-1097-1-ND"
+		(property "Vendor Part Number" ""
 			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12993,7 +12993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+		(property "Manufacturer Part Number" ""
 			(at 140.97 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13015,7 +13015,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+		(property "Vendor Part Number" ""
 			(at 140.97 148.59 0)
 			(hide yes)
 			(show_name no)
