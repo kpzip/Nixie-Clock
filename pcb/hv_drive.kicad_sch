@@ -3904,7 +3904,7 @@
 		)
 		(uuid "5549e239-73bc-4fca-abac-f29ca6b3ee1e")
 	)
-	(text "Consider\nBSC059N04LS6ATMA1\nBSC067N06LS3GATMA1\nBSC060N10NS3GATMA1"
+	(text "Consider\nBSC059N04LS6ATMA1 <\nBSC067N06LS3GATMA1\nBSC060N10NS3GATMA1"
 		(exclude_from_sim no)
 		(at 246.888 136.906 0)
 		(effects
