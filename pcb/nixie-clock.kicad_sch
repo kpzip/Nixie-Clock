@@ -4880,6 +4880,16 @@
 		)
 		(uuid "74e9d3fb-a7b9-4ee2-b8e2-6de9497832cf")
 	)
+	(text "TODO check to see if IO3 and IO 45 & 46 need special treatment"
+		(exclude_from_sim no)
+		(at 392.176 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a082dc3a-e1e9-4ea0-8fac-8be7d2bdb57e")
+	)
 	(text "I2C ADDR: 0xD0"
 		(exclude_from_sim no)
 		(at 171.196 199.644 0)
@@ -5529,6 +5539,16 @@
 			(type default)
 		)
 		(uuid "1c12741c-177b-4cc8-a9f8-0a3ebe6f1bce")
+	)
+	(wire
+		(pts
+			(xy 302.26 87.63) (xy 317.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbd87a6-2020-458a-a25b-f6479b6a7103")
 	)
 	(wire
 		(pts
@@ -6289,16 +6309,6 @@
 			(type default)
 		)
 		(uuid "6e23ba51-7436-4ac2-9ea7-d21bb602f641")
-	)
-	(wire
-		(pts
-			(xy 306.07 87.63) (xy 321.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e788bfc-969b-4b0e-9d77-9c2e3720d6f7")
 	)
 	(wire
 		(pts
@@ -7870,16 +7880,6 @@
 		)
 		(uuid "3b6fb686-4577-4e76-af68-06c1abebb0fe")
 	)
-	(label "~{HVDC_EN}"
-		(at 306.07 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fabf931-54b4-4709-a7a5-ddf7f2fb8f04")
-	)
 	(label "PWM_IN_5"
 		(at 320.04 118.11 180)
 		(effects
@@ -8179,6 +8179,16 @@
 			(justify left bottom)
 		)
 		(uuid "c30df9cf-30c8-4c25-8e78-159009d7eaf3")
+	)
+	(label "~{HVDC_EN}"
+		(at 302.26 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c37e0de9-e2d9-4c25-bc2d-bf164e5d6dfe")
 	)
 	(label "IO_0"
 		(at 318.77 57.15 90)
