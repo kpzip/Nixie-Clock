@@ -4882,7 +4882,7 @@
 	)
 	(text "TODO check to see if IO3 and IO 45 & 46 need special treatment"
 		(exclude_from_sim no)
-		(at 392.176 67.818 0)
+		(at 383.794 67.056 0)
 		(effects
 			(font
 				(size 1.27 1.27)
