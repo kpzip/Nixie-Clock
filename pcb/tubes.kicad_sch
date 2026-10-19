@@ -1729,7 +1729,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MPSA42"
+		(symbol "Transistor_BJT:MMBTA42"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1750,7 +1750,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MPSA42"
+			(property "Value" "MMBTA42"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1761,7 +1761,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1774,7 +1774,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1786,7 +1786,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1808,7 +1808,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1830,7 +1830,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1841,7 +1841,7 @@
 					)
 				)
 			)
-			(symbol "MPSA42_0_1"
+			(symbol "MMBTA42_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1878,7 +1878,7 @@
 					)
 				)
 			)
-			(symbol "MPSA42_1_1"
+			(symbol "MMBTA42_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1915,10 +1915,10 @@
 						(type outline)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1933,10 +1933,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2519,7 +2519,7 @@
 	)
 	(text "1W"
 		(exclude_from_sim no)
-		(at 373.126 69.342 0)
+		(at 373.126 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2606,16 +2606,6 @@
 			(type default)
 		)
 		(uuid "0912e7f9-ba42-4de8-970e-497068102278")
-	)
-	(wire
-		(pts
-			(xy 336.55 59.69) (xy 336.55 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093ee562-311d-4923-8f15-3c8cfc00704d")
 	)
 	(wire
 		(pts
@@ -2706,6 +2696,16 @@
 			(type default)
 		)
 		(uuid "15e1165f-4620-436c-8fba-e6c048e08819")
+	)
+	(wire
+		(pts
+			(xy 271.78 52.07) (xy 317.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17531a64-e715-4aa7-b17e-b8f594c1a3f2")
 	)
 	(wire
 		(pts
@@ -2809,16 +2809,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 66.04) (xy 369.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "296b008a-d7f8-4c40-9aff-c05c87a229e6")
-	)
-	(wire
-		(pts
 			(xy 30.48 134.62) (xy 35.56 134.62)
 		)
 		(stroke
@@ -2839,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 59.69) (xy 336.55 59.69)
+			(xy 335.28 59.69) (xy 369.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 57.15) (xy 383.54 66.04)
+			(xy 383.54 50.8) (xy 383.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3069,17 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 52.07) (xy 317.5 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "746d22f2-1eca-4fad-beed-2e5da1e41945")
-	)
-	(wire
-		(pts
-			(xy 377.19 66.04) (xy 383.54 66.04)
+			(xy 377.19 59.69) (xy 383.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3774,6 +3754,113 @@
 		)
 		(uuid "d47265d6-ee08-4925-8291-ac5f30a1c64d")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 318.77 40.64) (xy 318.77 76.2) (xy 308.61 76.2) (xy 308.61 40.64)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "518d1023-92bf-4cfd-bf48-b04bf9680b96")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 334.01 40.64) (xy 334.01 76.2) (xy 344.17 76.2) (xy 344.17 40.64)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "a6b1f7d5-814e-4b5a-80e4-b7def9f0b64a")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 313.69 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b208201-da23-4a22-a15d-1e09faf6ccf7")
+		(property "Netclass" "HVDC"
+			(at 314.3885 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 121.92 -36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 339.09 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98c8454b-221a-4864-85ff-a346061c0bda")
+		(property "Netclass" "HVDC"
+			(at 338.3915 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 261.62 232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 40.64 160.02 0)
@@ -3873,137 +3960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 340.36 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b31bbd9-3e2f-4cd4-a417-753b15d3a79e")
-		(property "Reference" "Q14"
-			(at 335.28 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 335.28 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 335.28 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 340.36 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 340.36 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 340.36 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 340.36 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "903e8c78-1df4-4d36-bb98-f5f10cea1244")
-		)
-		(pin "1"
-			(uuid "39f8130a-207b-4ae7-85a2-7eb578023673")
-		)
-		(pin "3"
-			(uuid "4316e23d-8bab-485c-be67-0f61e504c2f0")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q14")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q62")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q74")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q38")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q50")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 132.08 100.33 180)
 		(unit 1)
@@ -4036,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 131.064 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -4433,8 +4389,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 269.24 87.63 0)
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 204.47 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4443,9 +4399,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1999347b-48b3-43d3-bed4-d8fa0694e5b5")
-		(property "Reference" "Q11"
-			(at 274.32 86.3599 0)
+		(uuid "1412fba9-76ab-49b3-98e2-3dff62e7456d")
+		(property "Reference" "Q101"
+			(at 209.55 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4455,8 +4411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA42"
-			(at 274.32 88.8999 0)
+		(property "Value" "MMBTA42"
+			(at 209.55 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4466,8 +4422,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 274.32 89.535 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 209.55 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,8 +4435,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 269.24 87.63 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,8 +4447,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 269.24 87.63 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4459,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 269.24 87.63 0)
+			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,8 +4469,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 269.24 87.63 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,170 +4479,40 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "21def0ff-ab52-4d3b-a7eb-0b6ae493029c")
 		)
 		(pin "1"
-			(uuid "9a75c424-ddc0-44c4-9e8c-0c596095f052")
+			(uuid "df495d06-7876-4c00-bec1-9fa74648797e")
 		)
 		(pin "3"
-			(uuid "d00331a0-904e-4a1e-ad62-24f93dd740cc")
+			(uuid "f740cc9b-e6ab-44fb-a82c-f57024502170")
+		)
+		(pin "2"
+			(uuid "2abeec67-c574-41b5-a638-cc71955ea702")
 		)
 		(instances
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q11")
+					(reference "Q101")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q59")
+					(reference "Q105")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q71")
+					(reference "Q106")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q35")
+					(reference "Q103")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q47")
+					(reference "Q104")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 247.65 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ab75222-cef9-4599-a709-3c41366119d7")
-		(property "Reference" "Q10"
-			(at 252.73 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 252.73 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 252.73 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 247.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 247.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 247.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 247.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11a402b4-b9bf-4045-8b19-f8d86358309e")
-		)
-		(pin "1"
-			(uuid "65c70c72-5c92-4006-93d2-bf33d2ef89f3")
-		)
-		(pin "3"
-			(uuid "a484fed7-579d-4e37-8a19-daec5a15cd6b")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q58")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q70")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q34")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q46")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q22")
+					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.604 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -4859,7 +4685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.014 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -4993,7 +4819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.474 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -5240,6 +5066,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 312.42 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aeae909-f130-469b-89df-61cb7aa0b60b")
+		(property "Reference" "Q131"
+			(at 317.5 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 317.5 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 317.5 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 312.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 312.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 312.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 312.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09761340-cd4b-4d80-9cd3-0ff14ddf941c")
+		)
+		(pin "3"
+			(uuid "7ae75ca3-4ed4-428e-b78c-5447c9db63e2")
+		)
+		(pin "2"
+			(uuid "a2def27f-74a0-4838-a837-a2a3ce2e6b83")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q131")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q135")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q136")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q133")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q134")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 50.8 160.02 0)
 		(unit 1)
@@ -5338,6 +5294,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 269.24 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "304e7594-62c7-4b0b-824a-0424e2605a17")
+		(property "Reference" "Q119"
+			(at 274.32 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 274.32 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 274.32 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24e0a02d-2b7a-4496-9670-1d4c8373a871")
+		)
+		(pin "3"
+			(uuid "959e3d57-4e48-4e5e-b8bf-e384520fd55a")
+		)
+		(pin "2"
+			(uuid "ced76554-2bd7-4e56-a885-d82909d61b67")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q119")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q123")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q124")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q121")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q122")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 304.8 100.33 180)
 		(unit 1)
@@ -5370,7 +5456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 303.784 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -5602,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.654 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -5704,8 +5790,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 161.29 87.63 0)
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 247.65 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5714,9 +5800,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44d1d3e2-5ef5-4a30-8d24-ded1fa135aa9")
-		(property "Reference" "Q6"
-			(at 166.37 86.3599 0)
+		(uuid "47c254be-3911-4469-a310-a0c737f107d4")
+		(property "Reference" "Q113"
+			(at 252.73 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5726,8 +5812,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA42"
-			(at 166.37 88.8999 0)
+		(property "Value" "MMBTA42"
+			(at 252.73 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5737,8 +5823,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 166.37 89.535 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 252.73 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,8 +5836,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 161.29 87.63 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,8 +5848,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 161.29 87.63 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +5860,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 161.29 87.63 0)
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,8 +5870,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 161.29 87.63 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,40 +5880,40 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "5d00cebc-7783-4ff5-9a19-271cff39d598")
 		)
 		(pin "1"
-			(uuid "d3d26359-fba2-48ae-8e0d-586c8759729f")
+			(uuid "0086866e-68ae-47ca-9977-74a05f9ded2a")
 		)
 		(pin "3"
-			(uuid "231acaf8-a414-4632-b7b5-3b11a390324d")
+			(uuid "67334749-83dc-412b-ae39-52cf96f7dcaa")
+		)
+		(pin "2"
+			(uuid "f2b48da5-c4e5-4dfc-90f2-65fae07c8a48")
 		)
 		(instances
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q6")
+					(reference "Q113")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q54")
+					(reference "Q117")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q66")
+					(reference "Q118")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q30")
+					(reference "Q115")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q42")
+					(reference "Q116")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q18")
+					(reference "Q114")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.244 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -5968,8 +6054,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 204.47 87.63 0)
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 182.88 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5978,9 +6064,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "525783fc-0d3d-4257-abfc-036a02466e2d")
-		(property "Reference" "Q8"
-			(at 209.55 86.3599 0)
+		(uuid "7cfa24a6-b155-4836-b152-1a8ea86ce424")
+		(property "Reference" "Q95"
+			(at 187.96 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5990,8 +6076,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA42"
-			(at 209.55 88.8999 0)
+		(property "Value" "MMBTA42"
+			(at 187.96 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6001,8 +6087,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 209.55 89.535 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,8 +6100,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 204.47 87.63 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6026,8 +6112,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 204.47 87.63 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +6124,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 204.47 87.63 0)
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,8 +6134,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 204.47 87.63 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 182.88 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,170 +6144,40 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "583c77aa-33c2-4add-a919-2a5525117cff")
 		)
 		(pin "1"
-			(uuid "f5012eef-98d7-4ad4-8d94-f6a1ea372dcd")
+			(uuid "1805b7c4-b1de-4837-a3b3-dcc713a711ab")
 		)
 		(pin "3"
-			(uuid "67187206-b637-4c79-96fd-4470cdb727e6")
+			(uuid "25574f39-34ff-4194-b168-92767e003924")
+		)
+		(pin "2"
+			(uuid "4aebcb7e-0913-4642-b310-95eecf4781c5")
 		)
 		(instances
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q8")
+					(reference "Q95")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q56")
+					(reference "Q99")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q68")
+					(reference "Q100")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q32")
+					(reference "Q97")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q44")
+					(reference "Q98")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 139.7 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c06af5c-1dac-4895-9296-335626668043")
-		(property "Reference" "Q5"
-			(at 144.78 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 144.78 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 144.78 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "81749dd3-dc5a-4668-9109-3063bf004d44")
-		)
-		(pin "1"
-			(uuid "c6c56bb5-6d98-4cd3-aa14-120e824d6f71")
-		)
-		(pin "3"
-			(uuid "43b00446-b31b-48a1-b4cc-b19eb0a33ee9")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q53")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q65")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q29")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q41")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q17")
+					(reference "Q96")
 					(unit 1)
 				)
 			)
@@ -6260,7 +6216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 282.194 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -6362,267 +6318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 290.83 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "838c00a1-8c37-4acc-bf53-152f10442dd9")
-		(property "Reference" "Q12"
-			(at 295.91 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 295.91 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 295.91 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 290.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 290.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 290.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 290.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a179cd5d-6f7c-45bb-add7-03c180ca8bb6")
-		)
-		(pin "1"
-			(uuid "f26cf09e-7a7f-41d3-af7e-6c7874e43b10")
-		)
-		(pin "3"
-			(uuid "7d89cf4a-1cf2-4db9-b2db-ada810e1f20b")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q60")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q72")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q36")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q48")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 361.95 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88bdfec4-b1ba-4ee7-b1d6-43c1bbc9b9b4")
-		(property "Reference" "Q15"
-			(at 356.87 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 356.87 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 356.87 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 361.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 361.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 361.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 361.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "02ca08d4-0b18-4461-a4a3-cb50419c7289")
-		)
-		(pin "1"
-			(uuid "0e78648b-333e-4737-9794-b2c7f1b91a15")
-		)
-		(pin "3"
-			(uuid "1edb950b-af85-48f0-a807-36bd69d33e69")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q63")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q75")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q39")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q51")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NixiesUS:IN-16")
 		(at 325.12 59.69 0)
 		(unit 1)
@@ -6654,7 +6349,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-16"
+		(property "Footprint" "nixies-us-IN-16"
 			(at 325.882 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6866,6 +6561,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 118.11 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f50f0a9-89d8-47f2-9aa9-38cd421dce0b")
+		(property "Reference" "Q3"
+			(at 123.19 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 123.19 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 123.19 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86af9a5a-0822-43b1-96fd-f022d7606cbc")
+		)
+		(pin "3"
+			(uuid "f16314cf-a9cb-4fd9-9c14-e52d95ab7adb")
+		)
+		(pin "2"
+			(uuid "73824a5b-4dc7-40db-9759-015e6f00f9cf")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q81")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q82")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q79")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q80")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 142.24 96.52 0)
 		(unit 1)
@@ -7062,6 +6887,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 340.36 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92307289-329e-48b0-9adb-89fa0e2fd10d")
+		(property "Reference" "Q137"
+			(at 335.28 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 335.28 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 335.28 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 340.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 340.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 340.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 340.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dfbe845-13d4-4b0a-8911-4cd05c0d166f")
+		)
+		(pin "3"
+			(uuid "40d127e5-2b9f-4db0-b166-ff533ad18207")
+		)
+		(pin "2"
+			(uuid "88c5c1ca-19a7-4150-8504-7707d311bac0")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q137")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q141")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q142")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q139")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q140")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 271.78 96.52 0)
 		(unit 1)
@@ -7154,6 +7109,136 @@
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 290.83 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3626210-eaf7-43f1-9088-339260e36a5c")
+		(property "Reference" "Q125"
+			(at 295.91 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 295.91 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 295.91 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 290.83 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 290.83 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 290.83 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 290.83 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "623e7c02-927e-4c9f-9967-fe0d743f3827")
+		)
+		(pin "3"
+			(uuid "f6277c99-8fdb-48cc-98b6-b4cbe8792f32")
+		)
+		(pin "2"
+			(uuid "696c26ab-2918-49d6-981b-40b3b88a572e")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q125")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q129")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q130")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q127")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q128")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q126")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 346.964 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +7941,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 373.38 66.04 270)
+		(at 373.38 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7867,7 +7952,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9cd9f8-c300-4fd9-8f7f-17dcdb0bf75e")
 		(property "Reference" "R21"
-			(at 373.38 59.69 90)
+			(at 373.38 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7877,7 +7962,7 @@
 			)
 		)
 		(property "Value" "22kΩ"
-			(at 373.38 62.23 90)
+			(at 373.38 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7886,8 +7971,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 373.126 67.056 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 373.126 60.706 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,7 +7983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 66.04 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7909,7 +7994,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 373.38 66.04 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,7 +8005,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 373.38 66.04 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +8016,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 373.38 66.04 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +8027,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 373.38 66.04 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.834 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -8252,7 +8337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.424 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -8348,136 +8433,6 @@
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 182.88 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1a2d83a-da99-4b87-9332-5903ff250260")
-		(property "Reference" "Q7"
-			(at 187.96 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 187.96 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 187.96 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 182.88 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 182.88 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 182.88 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 182.88 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9efee6eb-d174-4416-a113-ebe1d0a4f6cb")
-		)
-		(pin "1"
-			(uuid "313aff69-d96f-4dba-8b10-06fdeec3f984")
-		)
-		(pin "3"
-			(uuid "c0876eff-f1c3-410f-87b4-db93973a07b4")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q55")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q67")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q31")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q43")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -8681,7 +8636,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 383.54 57.15 0)
+		(at 383.54 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8692,7 +8647,7 @@
 		(fields_autoplaced yes)
 		(uuid "d983214f-c0c6-4ba7-aee1-31ff7cf71d1c")
 		(property "Reference" "#PWR051"
-			(at 383.54 60.96 0)
+			(at 383.54 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +8658,7 @@
 			)
 		)
 		(property "Value" "+HVDC"
-			(at 383.54 52.07 0)
+			(at 383.54 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8713,7 +8668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 57.15 0)
+			(at 383.54 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8724,7 +8679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 57.15 0)
+			(at 383.54 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,7 +8690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 383.54 57.15 0)
+			(at 383.54 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,8 +8733,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 312.42 87.63 0)
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 139.7 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8788,9 +8743,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e94caafd-8eff-4453-817d-431eaaf5413c")
-		(property "Reference" "Q13"
-			(at 317.5 86.3599 0)
+		(uuid "d9daa21a-3486-4840-85ab-8e16cb321328")
+		(property "Reference" "Q83"
+			(at 144.78 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8800,8 +8755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA42"
-			(at 317.5 88.8999 0)
+		(property "Value" "MMBTA42"
+			(at 144.78 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8811,8 +8766,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 317.5 89.535 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 144.78 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,8 +8779,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 312.42 87.63 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,8 +8791,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 312.42 87.63 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8848,7 +8803,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 312.42 87.63 0)
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,8 +8813,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 312.42 87.63 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,47 +8823,47 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "3b5941cc-82fb-48a9-8855-fc0407e7024e")
 		)
 		(pin "1"
-			(uuid "641ae0e7-27e4-4fe7-9bf4-c1344790d621")
+			(uuid "a16e2b4d-660f-4222-9b42-ee29e6640b35")
 		)
 		(pin "3"
-			(uuid "6283c84e-c23b-4dd6-b566-8e03a638bdf2")
+			(uuid "f0a27f43-518e-4897-aa6a-454f40071458")
+		)
+		(pin "2"
+			(uuid "94702e51-2f33-4345-94a2-b34172bc4e95")
 		)
 		(instances
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q13")
+					(reference "Q83")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q61")
+					(reference "Q87")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q73")
+					(reference "Q88")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q37")
+					(reference "Q85")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q49")
+					(reference "Q86")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q25")
+					(reference "Q84")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
+		(lib_id "Transistor_BJT:MMBTA42")
 		(at 226.06 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -8918,8 +8873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eddeffde-385e-4a7e-9609-5baf184df710")
-		(property "Reference" "Q9"
+		(uuid "e8153981-e4a3-4f48-9ffd-e842378e7898")
+		(property "Reference" "Q107"
 			(at 231.14 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA42"
+		(property "Value" "MMBTA42"
 			(at 231.14 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8941,7 +8896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 231.14 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -8954,7 +8909,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
 			(at 226.06 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8966,7 +8921,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
 			(at 226.06 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8988,7 +8943,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 226.06 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8999,39 +8954,39 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d2aa7e08-0a37-4e7e-add2-aafb34435740")
-		)
 		(pin "1"
-			(uuid "31c37111-1259-4be1-b6da-f1c1bcdde6c9")
+			(uuid "98672f4d-bc6d-4ce0-8be3-b446cf3406e9")
 		)
 		(pin "3"
-			(uuid "af4fe0a9-4307-45b7-a3a8-edcaceecd919")
+			(uuid "9d7d5a7e-a58e-4a0b-bad2-699ff829c2c2")
+		)
+		(pin "2"
+			(uuid "5c607776-120a-4e6c-8315-96318be60da4")
 		)
 		(instances
 			(project "nixie-clock"
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q9")
+					(reference "Q107")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q57")
+					(reference "Q111")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q69")
+					(reference "Q112")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q33")
+					(reference "Q109")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q45")
+					(reference "Q110")
 					(unit 1)
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q21")
+					(reference "Q108")
 					(unit 1)
 				)
 			)
@@ -9136,6 +9091,266 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 361.95 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7dd64d8-d7f0-474a-a6f9-ae2b922e13ea")
+		(property "Reference" "Q143"
+			(at 356.87 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 356.87 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 356.87 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 361.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 361.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 361.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 361.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c02ad1f-5f98-404c-bce7-d00369ab54da")
+		)
+		(pin "3"
+			(uuid "f13ba67f-1fd0-400c-bfdf-bd2540edbbbe")
+		)
+		(pin "2"
+			(uuid "b5017232-03a2-4c25-a8df-32ea40b75361")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q143")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q147")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q148")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q145")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q146")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 161.29 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb33a596-dbf9-47b8-98ef-4b313d192786")
+		(property "Reference" "Q89"
+			(at 166.37 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 166.37 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 166.37 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 161.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 161.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 161.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 161.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17b83c50-b13e-45d2-a6b5-e687f2d42a68")
+		)
+		(pin "3"
+			(uuid "3577a2bf-d585-429c-8e25-eed4362b8e62")
+		)
+		(pin "2"
+			(uuid "32322fad-877f-4b23-9881-ac31057d8348")
+		)
+		(instances
+			(project "nixie-clock"
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
+					(reference "Q89")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
+					(reference "Q93")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
+					(reference "Q94")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
+					(reference "Q91")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
+					(reference "Q92")
+					(unit 1)
+				)
+				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
+					(reference "Q90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 369.57 100.33 180)
 		(unit 1)
@@ -9168,7 +9383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.554 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -9264,136 +9479,6 @@
 				)
 				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 118.11 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe3e351d-9fcf-452d-aac9-f15b9cbab474")
-		(property "Reference" "Q4"
-			(at 123.19 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 123.19 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 123.19 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 118.11 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 118.11 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 118.11 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 118.11 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20539646-0b39-443a-bb05-c969e229ce6e")
-		)
-		(pin "1"
-			(uuid "d027e734-8d43-44c4-9f12-c2b01030c72d")
-		)
-		(pin "3"
-			(uuid "e69a5cb1-ff5c-4ef3-8658-731d9d5364cb")
-		)
-		(instances
-			(project "nixie-clock"
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/154c08fc-076c-478f-a964-6cfa88332eff"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/28c51b48-c0e2-49c1-80bf-291ea4040226"
-					(reference "Q52")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/70770765-7997-4f7d-81c0-ea8f4885ecbc"
-					(reference "Q64")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/7739d1fe-93d5-49e8-9895-dc6fc010465b"
-					(reference "Q28")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/85d16852-c154-4e73-b366-cc48d362914b"
-					(reference "Q40")
-					(unit 1)
-				)
-				(path "/ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292/404f1999-5171-4dfc-91f2-f75b17a61f1e/f9eab838-5191-45a6-a32c-04930a40fc48"
-					(reference "Q16")
 					(unit 1)
 				)
 			)

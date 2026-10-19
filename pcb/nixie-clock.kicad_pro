@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -172,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,7 +212,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.4,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +244,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -525,13 +544,274 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.4,
+        "name": "HVDC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "+HVDC": [
+        "HVDC"
+      ],
+      "Net-(D2-A)": [
+        "HVDC"
+      ],
+      "Net-(N1-PadA)": [
+        "HVDC"
+      ],
+      "Net-(N2-PadA)": [
+        "HVDC"
+      ],
+      "Net-(N3-PadA)": [
+        "HVDC"
+      ],
+      "Net-(N4-PadA)": [
+        "HVDC"
+      ],
+      "Net-(N5-PadA)": [
+        "HVDC"
+      ],
+      "Net-(N6-PadA)": [
+        "HVDC"
+      ],
+      "Net-(NE1-Pad2)": [
+        "HVDC"
+      ],
+      "Net-(NE2-Pad2)": [
+        "HVDC"
+      ],
+      "Net-(Q100-C)": [
+        "HVDC"
+      ],
+      "Net-(Q101-C)": [
+        "HVDC"
+      ],
+      "Net-(Q102-C)": [
+        "HVDC"
+      ],
+      "Net-(Q103-C)": [
+        "HVDC"
+      ],
+      "Net-(Q104-C)": [
+        "HVDC"
+      ],
+      "Net-(Q105-C)": [
+        "HVDC"
+      ],
+      "Net-(Q106-C)": [
+        "HVDC"
+      ],
+      "Net-(Q107-C)": [
+        "HVDC"
+      ],
+      "Net-(Q108-C)": [
+        "HVDC"
+      ],
+      "Net-(Q109-C)": [
+        "HVDC"
+      ],
+      "Net-(Q110-C)": [
+        "HVDC"
+      ],
+      "Net-(Q111-C)": [
+        "HVDC"
+      ],
+      "Net-(Q112-C)": [
+        "HVDC"
+      ],
+      "Net-(Q113-C)": [
+        "HVDC"
+      ],
+      "Net-(Q114-C)": [
+        "HVDC"
+      ],
+      "Net-(Q115-C)": [
+        "HVDC"
+      ],
+      "Net-(Q116-C)": [
+        "HVDC"
+      ],
+      "Net-(Q117-C)": [
+        "HVDC"
+      ],
+      "Net-(Q118-C)": [
+        "HVDC"
+      ],
+      "Net-(Q119-C)": [
+        "HVDC"
+      ],
+      "Net-(Q120-C)": [
+        "HVDC"
+      ],
+      "Net-(Q121-C)": [
+        "HVDC"
+      ],
+      "Net-(Q122-C)": [
+        "HVDC"
+      ],
+      "Net-(Q123-C)": [
+        "HVDC"
+      ],
+      "Net-(Q124-C)": [
+        "HVDC"
+      ],
+      "Net-(Q125-C)": [
+        "HVDC"
+      ],
+      "Net-(Q126-C)": [
+        "HVDC"
+      ],
+      "Net-(Q127-C)": [
+        "HVDC"
+      ],
+      "Net-(Q128-C)": [
+        "HVDC"
+      ],
+      "Net-(Q129-C)": [
+        "HVDC"
+      ],
+      "Net-(Q130-C)": [
+        "HVDC"
+      ],
+      "Net-(Q131-C)": [
+        "HVDC"
+      ],
+      "Net-(Q132-C)": [
+        "HVDC"
+      ],
+      "Net-(Q133-C)": [
+        "HVDC"
+      ],
+      "Net-(Q134-C)": [
+        "HVDC"
+      ],
+      "Net-(Q135-C)": [
+        "HVDC"
+      ],
+      "Net-(Q136-C)": [
+        "HVDC"
+      ],
+      "Net-(Q137-C)": [
+        "HVDC"
+      ],
+      "Net-(Q138-C)": [
+        "HVDC"
+      ],
+      "Net-(Q139-C)": [
+        "HVDC"
+      ],
+      "Net-(Q140-C)": [
+        "HVDC"
+      ],
+      "Net-(Q141-C)": [
+        "HVDC"
+      ],
+      "Net-(Q142-C)": [
+        "HVDC"
+      ],
+      "Net-(Q143-C)": [
+        "HVDC"
+      ],
+      "Net-(Q144-C)": [
+        "HVDC"
+      ],
+      "Net-(Q145-C)": [
+        "HVDC"
+      ],
+      "Net-(Q146-C)": [
+        "HVDC"
+      ],
+      "Net-(Q147-C)": [
+        "HVDC"
+      ],
+      "Net-(Q148-C)": [
+        "HVDC"
+      ],
+      "Net-(Q3-C)": [
+        "HVDC"
+      ],
+      "Net-(Q76-C)": [
+        "HVDC"
+      ],
+      "Net-(Q77-C)": [
+        "HVDC"
+      ],
+      "Net-(Q78-C)": [
+        "HVDC"
+      ],
+      "Net-(Q79-C)": [
+        "HVDC"
+      ],
+      "Net-(Q80-C)": [
+        "HVDC"
+      ],
+      "Net-(Q81-C)": [
+        "HVDC"
+      ],
+      "Net-(Q82-C)": [
+        "HVDC"
+      ],
+      "Net-(Q83-C)": [
+        "HVDC"
+      ],
+      "Net-(Q84-C)": [
+        "HVDC"
+      ],
+      "Net-(Q85-C)": [
+        "HVDC"
+      ],
+      "Net-(Q86-C)": [
+        "HVDC"
+      ],
+      "Net-(Q87-C)": [
+        "HVDC"
+      ],
+      "Net-(Q88-C)": [
+        "HVDC"
+      ],
+      "Net-(Q89-C)": [
+        "HVDC"
+      ],
+      "Net-(Q90-C)": [
+        "HVDC"
+      ],
+      "Net-(Q91-C)": [
+        "HVDC"
+      ],
+      "Net-(Q92-C)": [
+        "HVDC"
+      ],
+      "Net-(Q93-C)": [
+        "HVDC"
+      ],
+      "Net-(Q94-C)": [
+        "HVDC"
+      ],
+      "Net-(Q95-C)": [
+        "HVDC"
+      ],
+      "Net-(Q96-C)": [
+        "HVDC"
+      ],
+      "Net-(Q97-C)": [
+        "HVDC"
+      ],
+      "Net-(Q98-C)": [
+        "HVDC"
+      ],
+      "Net-(Q99-C)": [
+        "HVDC"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -783,7 +1063,7 @@
         "uuid": "ee289ad4-b0b5-4cd2-aa28-bc5cdbd02292"
       }
     ],
-    "used_designators": "#PWR221,#PWR225-229,#PWR256-257,#PWR260-272,C50-52,C57-71,R111-112,U8-9,U31",
+    "used_designators": "#PWR221,#PWR225-229,#PWR256-257,#PWR260-272,C50-52,C57-71,Q3,Q78-148,R111-112,U8-9,U31",
     "variants": []
   },
   "sheets": [

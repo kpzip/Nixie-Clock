@@ -1730,6 +1730,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 187.96 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419234d2-6114-4eea-9efd-4391ac7bdb00")
+	)
+	(junction
+		(at 219.71 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c37d8d-517a-40b6-adb3-7d7ed35410d4")
+	)
+	(junction
+		(at 219.71 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b968c619-b8b9-44c1-80ad-836ed1256504")
+	)
+	(junction
+		(at 187.96 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4ab9b5b-d4f7-490e-a8f5-4b1ce7973f15")
+	)
 	(no_connect
 		(at 153.67 96.52)
 		(uuid "00210171-216d-4463-add6-ac40fae97cfa")
@@ -1764,6 +1788,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 83.82) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb117ae-3fdb-4e3d-9c26-15d3a2f43d58")
+	)
+	(wire
+		(pts
 			(xy 187.96 96.52) (xy 187.96 100.33)
 		)
 		(stroke
@@ -1771,6 +1805,16 @@
 			(type default)
 		)
 		(uuid "145bdc6e-04d0-4d33-b56c-85aefde3403d")
+	)
+	(wire
+		(pts
+			(xy 217.17 88.9) (xy 219.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163085a5-34b8-4b5f-a0cf-5e78559d75e1")
 	)
 	(wire
 		(pts
@@ -1814,13 +1858,33 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 187.96 86.36)
+			(xy 187.96 82.55) (xy 187.96 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "382807ed-044f-44df-acfd-4cf4ee0764ff")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.82) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9105de-a27e-48bc-b914-17079b4d2ac0")
+	)
+	(wire
+		(pts
+			(xy 185.42 69.85) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f100079-4653-450b-b168-1f14beea8e6c")
 	)
 	(wire
 		(pts
@@ -1894,7 +1958,37 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 67.31) (xy 187.96 72.39)
+			(xy 217.17 102.87) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7a26b7-fe06-4355-b234-3b146e837d92")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9311a467-0226-46f6-ba74-82723d8f2ea2")
+	)
+	(wire
+		(pts
+			(xy 219.71 102.87) (xy 219.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ff5286-ddc1-4595-af17-6b7ff838fa3b")
+	)
+	(wire
+		(pts
+			(xy 187.96 67.31) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 101.6) (xy 219.71 105.41)
+			(xy 219.71 101.6) (xy 219.71 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1934,13 +2028,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 219.71 91.44)
+			(xy 219.71 86.36) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d146170a-e1f7-42ca-829a-93119fa21e7b")
+	)
+	(wire
+		(pts
+			(xy 187.96 69.85) (xy 187.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3403c75-6bbf-4c80-94c3-e97145ca58ae")
 	)
 	(wire
 		(pts
@@ -1983,6 +2087,146 @@
 			(justify right)
 		)
 		(uuid "c9f45a2c-2a32-4b83-99e8-ff9f8f99cbf1")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 185.42 83.82 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91235bef-489a-4335-8e3f-2eb30f7a773c")
+		(property "Netclass" "HVDC"
+			(at 182.88 83.1215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 217.17 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b3e182-be4d-409b-a4c8-011cb5ad717d")
+		(property "Netclass" "HVDC"
+			(at 214.63 102.1715 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 25.4 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 185.42 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f9b4d40-e157-4e7e-8399-7ec96c5a04f9")
+		(property "Netclass" "HVDC"
+			(at 182.88 69.1515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 217.17 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f035c741-781e-40d3-b0fb-25728b8add8f")
+		(property "Netclass" "HVDC"
+			(at 214.63 88.2015 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 25.4 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2173,7 +2417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.216 111.506 90)
 			(hide yes)
 			(show_name no)
@@ -2651,7 +2895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.726 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -2765,7 +3009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.466 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -3338,7 +3582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 188.976 63.754 90)
 			(hide yes)
 			(show_name no)
